@@ -15,7 +15,7 @@
     <header>
         <div class="navbar">
             <div class="logo" style="display: block;">
-                <a href="#"><img src="resources/logo.png" width="40px"></a></div>
+                <a href="Index.html"><img src="resources/logo.png" width="40px"></a></div>
             <ul class="links">
                 <li><a href="componentes">Componentes</a></li>
                 <li><a href="computadores">Computadores</a></li>
@@ -23,8 +23,8 @@
                 <li><a href="contact">Contacto</a></li>
             </ul>
             <div>
-                <a href="#" class="action_btn">Iniciar sesión</a>
-                <a href="#" class="action_btn negative">Registrarse</a>
+                <button href="#" class="action_btn">Iniciar sesión</button>
+                <button href="#" class="action_btn negative">Registrarse</button>
             </div>
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
@@ -35,8 +35,8 @@
             <li><a href="computadores">Computadores</a></li>
             <li><a href="about">Acerca de nosotros</a></li>
             <li><a href="contact">Contacto</a></li>
-            <li><a href="#" class="action_btn">Iniciar sesión</a></li>
-            <li><a href="#" class="action_btn negative">Registrarse</a></li>
+            <li><button href="#" class="action_btn">Iniciar sesión</button></li>
+            <li><button href="#" class="action_btn negative">Registrarse</button></li>
         </div>
     </header>
 
@@ -46,14 +46,19 @@
                 <div class="md_container_img">
                     <img src="resources/pc_gamer1.png" width="80%">
                 </div>
-                <div class="container_desc">
-                    <div class="upper_container">
-                        <h2 style="margin-top: 40px;">Pc Gamer Rgb Ryzen 5 5600g + 16gb +ssd 500 + Monitor 22”</h2>
-                        <h3>$2.200.000 COP</h3>
+                <div class="container_product">
+                    <div class="product_title">
+                        <h2>Pc Gamer Rgb Ryzen 5 5600g + 16gb +ssd 500 + Monitor 22”</h2><br>
+                        <h1>$2.200.000 COP</h3>
                     </div>
-                    <div class="btn_container">
-                        <a href="#" class="action_btn">Iniciar sesión</a>
-                        <a href="#" class="action_btn negative">Registrarse</a>
+                    <div style="text-align: center; max-width: 600px;">
+                        <div class="product_description">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque sapien tellus, ac varius nisi vulputate in. Vivamus ut sapien risus. Sed ornare augue ex, vel tincidunt neque elementum vitae. Sed porttitor quis nunc in auctor. Sed malesuada libero purus, scelerisque venenatis nibh venenatis in. Suspendisse eu luctus velit, sit amet sodales nibh. Maecenas ac ligula dui.</p>
+                        </div><br>
+                        <div class="btn_container">
+                            <button href="#" class="action_btn">Comprar ahora</button>
+                            <button href="#" class="action_btn negative">Agregar al carrito</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -61,40 +66,45 @@
 
             </div>
         </section>
-        <section class="cards">
-            <a href="#">
-                <div class="small_container">
-                    <div class="">
-                        <img src="resources/pc_gamer2.png" width="200px">
+        <section class="cards" style="display: block;">
+            <div>
+               <h1 style="margin-bottom: 40px;">Productos relacionados</h1>
+            </div> 
+            <div style="display: flex;">
+                <a href="#">
+                    <div class="small_container">
+                        <div class="">
+                            <img src="resources/pc_gamer2.png" width="200px">
+                        </div>
+                        <div class="md_container">
+                            <p>Pc Gamer Rgb Ryzen 5 5600g + 16gb +ssd 500 + Monitor 22”</p>
+                            <h3>$2.200.000 COP</h1>
+                        </div>
                     </div>
-                    <div class="md_container">
-                        <p>Pc Gamer Rgb Ryzen 5 5600g + 16gb +ssd 500 + Monitor 22”</p>
-                        <h3>$2.200.000 COP</h1>
+                </a>
+                <a href="#">
+                    <div class="small_container">
+                        <div class="">
+                            <img src="resources/pc_gmer3.png" width="200px">
+                        </div>
+                        <div class="md_container">
+                            <p>Torre Cpu Gamer Core I5 10400 Gpu 2g Hdmi 1tb 16gb Led 22</p>
+                            <h3>$2.000.000 COP</h1>
+                        </div>
                     </div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="small_container">
-                    <div class="">
-                        <img src="resources/pc_gmer3.png" width="200px">
+                </a>
+                <a href="#">
+                    <div class="small_container">
+                        <div>
+                            <img src="resources/pc_gamer1.png" width="200px">
+                        </div>
+                        <div class="md_container">
+                            <p>Torre Gamer Rgb Amd Ryzen 5 5600g + 16gb + Ssd 240</p>
+                            <h3>$1.600.000 COP</h1>
+                        </div>
                     </div>
-                    <div class="md_container">
-                        <p>Torre Cpu Gamer Core I5 10400 Gpu 2g Hdmi 1tb 16gb Led 22</p>
-                        <h3>$2.000.000 COP</h1>
-                    </div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="small_container">
-                    <div>
-                        <img src="resources/pc_gamer1.png" width="200px">
-                    </div>
-                    <div class="md_container">
-                        <p>Torre Gamer Rgb Amd Ryzen 5 5600g + 16gb + Ssd 240</p>
-                        <h3>$1.600.000 COP</h1>
-                    </div>
-                </div>
-            </a>
+                </a>
+            </div>
         </section>
     </main>
 

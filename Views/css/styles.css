@@ -16,13 +16,23 @@ li {
     list-style: none;
 }
 
+button {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
 a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
 }
 
-a:hover {
+button:hover {
+    color: #AED2FF;
+}
+
+a:hover{
     color: #AED2FF;
 }
 
@@ -151,22 +161,35 @@ section {
     background-color: white;
 }
 
-.container_desc {
+.container_product {
+    margin-top: 20px;
     display: block;
-    margin: 20px 20px 20px 10px;
     border-style: none;    
     border-radius: 20px;
     background-color: #AED2FF;
+    text-align: center;
+    align-items: center;
 }
 
-.upper_container {
-    height: 50%;
+.product_title {
+    margin: 40px 40px;
+}
+
+.product_description {
+    margin: 40px 40px;
 }
 
 .btn_container {
-    margin: auto;
-    border: 1px solid red;
+    text-align: center;
     display: block;
+}
+
+.btn_container button {
+    margin: 20px 20px;
+    font-size: larger;
+}
+
+.container_desc h2{
 }
 
 #hero h1 {
