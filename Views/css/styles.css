@@ -140,6 +140,35 @@ section {
     color: black;
 }
 
+.container {
+    display: flex;
+}
+
+.md_container_img {
+    margin: 20px 10px 20px 20px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.container_desc {
+    display: block;
+    margin: 20px 20px 20px 10px;
+    border-style: none;    
+    border-radius: 20px;
+    background-color: #AED2FF;
+}
+
+.upper_container {
+    height: 50%;
+}
+
+.btn_container {
+    margin: auto;
+    border: 1px solid red;
+    display: block;
+}
+
 #hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -150,7 +179,7 @@ section {
     margin: 0 auto;
     padding: 2rem 1rem;
     display: flex;
-    background-color: #9400FF;
+    background: linear-gradient(to bottom, #9400FF, #27005D);
     border-style: none;
     border-radius: 20px;
     align-items: center;
@@ -174,7 +203,7 @@ section {
 
 .small_container {
     display: block;
-    background-color: #9400FF;
+    background: linear-gradient(to bottom, #9400FF, #27005D);
     border-style: none;
     border-radius: 20px;
     margin: 0 20px;
