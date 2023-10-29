@@ -10,3 +10,15 @@ toggleBtn.onclick = function() {
         ? 'fa-solid fa-xmark'
         : 'fa-solid fa-bars'
 }
+
+function btnLogIn_Click() {
+    location.href = "LogIn.html";
+}
+
+function btnSignIn_Click() {
+    location.href = "SignIn.html";
+}
+
+function btnIndex_Click() {
+    location.href = "Index.html";
+}

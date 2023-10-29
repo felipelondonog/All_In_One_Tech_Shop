@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +24,6 @@
             </ul>
             <div>
                 <button onclick="btnLogIn_Click()" class="action_btn">Iniciar sesión</button>
-                <button onclick="btnSignIn_Click()" class="action_btn negative">Registrarse</button>
             </div>
             <div class="toggle_btn">
                 <i class="fa-solid fa-bars"></i>
@@ -36,58 +35,38 @@
             <li><a href="about">Acerca de nosotros</a></li>
             <li><a href="contact">Contacto</a></li>
             <li><button onclick="btnLogIn_Click()" class="action_btn">Iniciar sesión</button></li>
-            <li><button onclick="btnSignIn_Click()" class="action_btn negative">Registrarse</button></li>
         </div>
     </header>
+
     <main>
-        <section id="hero">
-            <a href="#">
-                <div class="main_container">
-                    <div class="md_container">
-                        <p>¿No sabes lo que necesitas o solo conoces tu presupuesto?</p>
-                        <h1>¡Arma tu PC AQUÍ!</h1>
-                    </div>
-                    <div class="right-container">
-                        <img src="resources/pcCreator1.png" width="200px">
-                    </div>
+        <div class="sign_in">
+            <div class="form_title">
+                <h1>Registro</h1>
+                <p>Solo necesitaremos algunos datos tuyos y ya todo estará  listo</p>
+            </div>
+            <div class="form">
+                <div>
+                    <h4>Correo electrónico:</h4>
+                    <input type="text" placeholder="Correo electrónico">
                 </div>
-            </a>
-        </section>
-        <section class="cards">
-            <a href="Producto.html">
-                <div class="small_container">
-                    <div class="">
-                        <img src="resources/pc_gamer2.png" width="200px">
-                    </div>
-                    <div class="md_container">
-                        <p>Pc Gamer Rgb Ryzen 5 5600g + 16gb +ssd 500 + Monitor 22”</p>
-                        <h3>$2.200.000 COP</h1>
-                    </div>
+                <div>
+                    <h4>Confirmar correo electrónico:</h4>
+                    <input type="text" placeholder="Confirmar correo electrónico">
                 </div>
-            </a>
-            <a href="Producto.html">
-                <div class="small_container">
-                    <div class="">
-                        <img src="resources/pc_gmer3.png" width="200px">
-                    </div>
-                    <div class="md_container">
-                        <p>Torre Cpu Gamer Core I5 10400 Gpu 2g Hdmi 1tb 16gb Led 22</p>
-                        <h3>$2.000.000 COP</h1>
-                    </div>
+                <div>
+                    <h4>Contraseña:</h4>
+                    <input type="password" placeholder="Contraseña">
                 </div>
-            </a>
-            <a href="Producto.html">
-                <div class="small_container">
-                    <div>
-                        <img src="resources/pc_gamer1.png" width="200px">
-                    </div>
-                    <div class="md_container">
-                        <p>Torre Gamer Rgb Amd Ryzen 5 5600g + 16gb + Ssd 240</p>
-                        <h3>$1.600.000 COP</h1>
-                    </div>
+                <div>
+                    <h4>Correo electrónico:</h4>
+                    <input type="password" placeholder="Confirmar contraseña">
                 </div>
-            </a>
-        </section>
+            </div>
+            <div class="btn_container">
+                <button href="#" class="action_btn">Continuar</button>
+                <button onclick="btnIndex_Click()" class="action_btn negative">Volver atrás</button>
+            </div>
+        </div>
     </main>
 
     <footer>

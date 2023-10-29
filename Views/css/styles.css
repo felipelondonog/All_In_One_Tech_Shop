@@ -154,6 +154,41 @@ section {
     display: flex;
 }
 
+.sign_in{
+    color: white;
+    margin: 30px auto;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+    display: block;
+    border-style: none;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #9400FF, #27005D);
+}
+
+.form_title h1 {    
+    padding: 20px 0;
+}
+
+.form_title p {
+    padding-bottom: 20px;
+}
+
+.form {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.form input{
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 .md_container_img {
     margin: 20px 10px 20px 20px;
     border-style: none;
@@ -169,6 +204,7 @@ section {
     background-color: #AED2FF;
     text-align: center;
     align-items: center;
+    width: 80%;
 }
 
 .product_title {
@@ -187,9 +223,6 @@ section {
 .btn_container button {
     margin: 20px 20px;
     font-size: larger;
-}
-
-.container_desc h2{
 }
 
 #hero h1 {
