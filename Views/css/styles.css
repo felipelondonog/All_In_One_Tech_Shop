@@ -288,11 +288,14 @@ section {
 }
 
 footer {
+    width: 100%;
     display: flex;
     background-color: #AED2FF;
+    position: relative;
+    bottom: 0;
 }
 
-.footer_content {
+.footer_content {       
     margin: auto 50px auto auto;
     color: black;
 }
