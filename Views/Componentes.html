@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo" style="display: block;">
+                <a href="Index.html"><img src="resources/logo.png" width="40px"></a></div>
+            <ul class="links">
+                <li><a href="Componentes.html">Componentes</a></li>
+                <li><a href="Computadores.html">Computadores</a></li>
+                <li><a href="about">Acerca de nosotros</a></li>
+                <li><a href="contact">Contacto</a></li>
+            </ul>
+            <div>
+                <button onclick="btnLogIn_Click()" class="action_btn">Iniciar sesión</button>
+                <button onclick="btnSignIn_Click()" class="action_btn negative">Registrarse</button>
+            </div>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="Componentes.html">Componentes</a></li>
+            <li><a href="Computadores.html">Computadores</a></li>
+            <li><a href="about">Acerca de nosotros</a></li>
+            <li><a href="contact">Contacto</a></li>
+            <li><button onclick="btnLogIn_Click()" class="action_btn">Iniciar sesión</button></li>
+            <li><button onclick="btnSignIn_Click()" class="action_btn negative">Registrarse</button></li>
+        </div>
+    </header>
+
+    <main style="display: flex; flex-wrap: wrap;">        
+        <div style="display: flex;">
+            <div class="filters">
+                <h3>Categorías</h3>
+                <div class="filter">
+                    <p>Almacenamiento</p>
+                    <input type="checkbox">
+                </div>
+                <div class="filter">
+                    <p>Fuentes de poder</p>
+                    <input type="checkbox">
+                </div>
+                <div class="filter">
+                    <p>Memorias RAM</p>
+                    <input type="checkbox">
+                </div>
+                <div class="filter">
+                    <p>Motherboards</p>
+                    <input type="checkbox">
+                </div>
+                <div class="filter">
+                    <p>Procesadores</p>
+                    <input type="checkbox">
+                </div>
+                <div class="filter">
+                    <p>Tarjetas gráficas</p>
+                    <input type="checkbox">
+                </div>
+                <div class="filter">
+                    <p>Monitores</p>
+                    <input type="checkbox">
+                </div>
+                <h3>Presupuesto</h3>
+                <div>
+                    $100000<input type="range" min="10000" max="2000000">$2000000
+                </div> 
+                <h3>Marcas</h3>
+                <div class="filter">
+                    <p>Kingston</p>
+                    <input type="checkbox">
+                </div>
+                <div class="filter">
+                    <p>Crucial</p>
+                    <input type="checkbox">
+                </div>
+                <div class="filter">
+                    <p>Samsung</p>
+                    <input type="checkbox">
+                </div>
+                <div class="filter">
+                    <p>ASUS</p>
+                    <input type="checkbox">
+                </div>
+                <div class="filter">
+                    <p>TeamGroup</p>
+                    <input type="checkbox">
+                </div>
+                <div class="filter">
+                    <p>Corsair</p>
+                    <input type="checkbox">
+                </div>
+            </div>
+            <div class="card_container">
+                <a class="card" href="Producto.html">
+                    <div class="small_container">
+                        <div class="">
+                            <img src="resources/pc_gamer2.png" width="60%">
+                        </div>
+                        <div class="md_container">
+                            <p>Pc Gamer Rgb Ryzen 5 5600g + 16gb +ssd 500 + Monitor 22”</p>
+                            <h3>$2.200.000 COP</h1>
+                        </div>
+                    </div>
+                </a>
+                <a class="card" href="Producto.html">
+                    <div class="small_container">
+                        <div>
+                            <img src="resources/pc_gmer3.png" width="60%">
+                        </div>
+                        <div class="md_container">
+                            <p>Torre Cpu Gamer Core I5 10400 Gpu 2g Hdmi 1tb 16gb Led 22</p>
+                            <h3>$2.000.000 COP</h1>
+                        </div>
+                    </div>
+                </a>
+                <a class="card" href="#">
+                    <div class="small_container">
+                        <div>
+                            <img src="resources/pc_gamer1.png" width="60%">
+                        </div>
+                        <div class="md_container">
+                            <p>Torre Gamer Rgb Amd Ryzen 5 5600g + 16gb + Ssd 240</p>
+                            <h3>$1.600.000 COP</h1>
+                        </div>
+                    </div>
+                </a>
+                <a class="card" href="Producto.html">
+                    <div class="small_container">
+                        <div class="">
+                            <img src="resources/pc_gamer2.png" width="60%">
+                        </div>
+                        <div class="md_container">
+                            <p>Pc Gamer Rgb Ryzen 5 5600g + 16gb +ssd 500 + Monitor 22”</p>
+                            <h3>$2.200.000 COP</h1>
+                        </div>
+                    </div>
+                </a>
+                <a class="card" href="#">
+                    <div class="small_container">
+                        <div class="">
+                            <img src="resources/pc_gmer3.png" width="60%">
+                        </div>
+                        <div class="md_container">
+                            <p>Torre Cpu Gamer Core I5 10400 Gpu 2g Hdmi 1tb 16gb Led 22</p>
+                            <h3>$2.000.000 COP</h1>
+                        </div>
+                    </div>
+                </a>
+                <a class="card" href="#">
+                    <div class="small_container">
+                        <div>
+                            <img src="resources/pc_gamer1.png" width="60%">
+                        </div>
+                        <div class="md_container">
+                            <p>Torre Gamer Rgb Amd Ryzen 5 5600g + 16gb + Ssd 240</p>
+                            <h3>$1.600.000 COP</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_logo">
+            <img src="resources/allInOne.png">
+        </div>
+        <div class="footer_content">
+            <p>© Todos los derechos reservados. 2023</p>
+        </div>
+    </footer>
+    <script src="js/Index.js"></script>
+</body>
+</html>
