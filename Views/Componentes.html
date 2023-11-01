@@ -74,8 +74,9 @@
                 </div>
                 <h3>Presupuesto</h3>
                 <div>
-                    $100000<input type="range" min="10000" max="2000000">$2000000
-                </div> 
+                    $100000<input id="budgetSlider" type="range" min="10000" max="2000000" onchange="getBudgetBySlider()">$2000000
+                </div>
+                <label id="budget">Mueve la barra para ajustar el presupuesto</label>
                 <h3>Marcas</h3>
                 <div class="filter">
                     <p>Kingston</p>

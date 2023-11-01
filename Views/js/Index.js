@@ -22,3 +22,7 @@ function btnSignIn_Click() {
 function btnIndex_Click() {
     location.href = "Index.html";
 }
+
+$('#budgetSlider').on('input', function() {
+    $('#budget').html( '$' + $(this).val() + ' COP' )
+  })
