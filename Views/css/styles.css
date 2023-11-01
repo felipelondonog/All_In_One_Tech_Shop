@@ -8,7 +8,6 @@
 }
 
 body {
-    height: 100hv;
     background-color: #E4F1FF;
 }
 
@@ -254,7 +253,15 @@ section {
 
 .main_container h1 {
     margin: 0 auto; 
+}
 
+.filtros {
+    margin: 20px;
+    border-style: none;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #9400FF, #27005D);
+    display: block;
+    width: 25%;
 }
 
 .small_container {
