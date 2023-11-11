@@ -9,6 +9,9 @@
 
 body {
     background-color: #E4F1FF;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 li {
@@ -366,6 +369,7 @@ input[type="checkbox"]::before {
 }
 
 footer {
+    margin-top: auto;
     width: 100%;
     display: flex;
     background-color: #AED2FF;
